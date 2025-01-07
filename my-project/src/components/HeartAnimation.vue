@@ -30,6 +30,7 @@ export default {
   position: relative;
   background: red;
   transform: rotate(-45deg);
+  top: 20px; /* 调整心形位置 */
   animation: beat 1s infinite;
 }
 
@@ -63,7 +64,7 @@ export default {
 }
 
 .message {
-  margin-top: 20px;
+  margin-top: 40px; /* 将文字整体往下移动 */
   font-size: 2rem;
   color: #ff69b4;
   font-weight: bold;
